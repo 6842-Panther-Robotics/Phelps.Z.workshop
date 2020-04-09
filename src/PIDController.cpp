@@ -6,7 +6,6 @@ PIDController::PIDController(double inKP, int inMinSpeed) {
   minSpeed = inMinSpeed;
 }
 
-
 int PIDController::getSpeedToMotor(int target, int current) {
 
   error = target - current;
